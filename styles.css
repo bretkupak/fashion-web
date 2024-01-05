@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+p{
+    text-align: center;
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+}
+nav{
+    
+    display: grid;
+    place-items: center;
+}
+nav ul a li{
+     display: inline-block;
+     padding: 20px;
+     text-decoration: none;
+     color: black;
+     transition: 0.2s ease-in;
+     font-size: 18px;
+}
+nav ul a li:hover{
+    background-color: black;
+    color: white;
+}.item img{
+    height: 300px;
+    width: 300px;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 500px;
+    margin: 0;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.items img:hover{
+    transform: scale(1.04);
+}
+.items .item img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+@media all and (max-width: 1000px) {
+}
+@media all and (max-width: 500px) {
+}
+@media all and (max-width: 250px) {
+}
+@media all and (max-width: 150px) {
+}
+@media all and (max-width: 100px) {
+}
